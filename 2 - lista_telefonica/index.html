@@ -89,8 +89,8 @@
         </select>
         <button class="btn btn-primary btn-block" ng-disabled="!contato.nome || !contato.telefone" ng-click="adicionarContato(contato)">Adicionar</button>
         <button class="btn btn-danger btn-block" ng-click="apagarContatos(contatos)" ng-show="isContatoSelecionado(contatos)">Apagar</button>
-
-
+    </div>
+    <div ng-include="'footer.html'">
     </div>
 
   </body>
